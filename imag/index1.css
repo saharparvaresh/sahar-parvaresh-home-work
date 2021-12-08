@@ -1,0 +1,138 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: whitesmoke;
+        font-family: sans;
+    }
+    
+    #top {
+        padding: 0.69%;
+        background-color: green;
+        margin-top: auto;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin: 2%;
+    }
+    
+    nav {
+        display: flex;
+    }
+    
+    nav ul {
+        padding: 20px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .button {
+        color: white;
+        box-sizing: border-box;
+        background-color: green;
+        margin-top: 40px;
+        padding: 10px;
+        border-radius: 7%;
+    }
+    
+    h1 {
+        font-size: 100%;
+        text-align: center;
+    }
+    
+    .icones {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        padding: 25px;
+        display: inline-block;
+    }
+    
+    .topics {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .topic_tittle {
+        text-align: center;
+        margin: 1%;
+        padding: 20px;
+        background-color: #eee;
+    }
+    
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    
+    .circles {
+        display: inline-flex;
+    }
+    
+    .c1,
+    .c2,
+    .c3 {
+        background-color: rgb(204, 178, 33);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    .circle {
+        margin: 40px;
+    }
+    
+    .logo_inside {
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 100%;
+        text-align: right;
+        direction: ltr;
+    }
+    
+    .footer {
+        width: 90%;
+        height: inherit;
+        background-color: #ddd;
+        text-align: center;
+        margin-left: 70px;
+    }
+    
+    .header {
+        text-align: center;
+        color: green;
+    }
+    
+    .boxes {
+        display: inline-flex;
+    }
+    
+    .box {
+        margin: 30px;
+        padding: 0 80px 0 50px;
+        background-color: #fff;
+    }
+    
+    @font-face {
+        font-Family: sans;
+        src: url(fonts/Sans\ a4fran3.eot) format(woff);
+    }
